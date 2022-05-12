@@ -1,0 +1,138 @@
+* {}
+
+body {}
+
+header#principal {
+    position: absolute;
+    width: 1146px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+
+    /*background: #FDF1EB;*/
+}
+
+h1 {
+    position: absolute;
+    width: 643px;
+    height: 26px;
+    left: 36px;
+    top: 23px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #725C5C;
+}
+
+.subtitleHeader {
+    position: absolute;
+    width: 391px;
+    height: 16px;
+    left: 36px;
+    top: 5px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #725C5C;
+}
+
+.subtitleHeader2 {
+    position: absolute;
+    width: 105px;
+    height: 16px;
+    left: 36px;
+    top: 48px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #725C5C;
+}
+
+#botaoLinguagem {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 97px;
+    height: 34px;
+    left: 789px;
+    top: 17px;
+
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+
+nav {
+    display: block;
+}
+
+#side-bar {
+  /*  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    height: 536px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+}
+
+#bar-shadow {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: -47.44%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);   
+}
+
+#rectangle239 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);  
+}
+
+#logoSlaca {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.rectangle241 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 5.71%;
+
+    background: #FFFFFF;
+    text-decoration: none; */
+}
+
+section {}
+
+.caixa-conteudo section {}
+
+.caixa-conteudo #ver-mais {
+    display: none;
+}
