@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1 {
+    position: absolute;
+    width: 643px;
+    height: 26px;
+    left: 36px;
+    top: 23px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #725C5C;
+}
+
+h2 {
+    padding-left: 15px
+}
+
+.wrapper .main_content {
+    width: 100%;
+    margin-left: 200px;
+}
+
+.wrapper .main_content .header {
+    padding: 20px;
+    background: #FDF1EB;
+    color: #725C5C;
+    border-bottom: 1px solid #e0e4e8;
+
+    font-family: 'Roboto', sans-serif;
+
+    width: 1146px;
+    height: 68px;
+}
+
+
+.subtitleHeader {
+    position: absolute;
+    width: 391px;
+    height: 16px;
+    left: 36px;
+    top: 5px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #725C5C;
+}
+
+.subtitleHeader2 {
+    position: absolute;
+    width: 105px;
+    height: 16px;
+    left: 36px;
+    top: 48px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #725C5C;
+}
+
+#botaoLinguagem {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 97px;
+    height: 34px;
+    left: 789px;
+    top: 17px;
+
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+
+    background: none;
+    border: none;
+}
+
+/*SEÇÃO ABAIXO DO CABEÇALHO PRINCIPAL*/
+
+.lado-a-lado {
+    display: flex;
+    flex-direction: row;
+}
+
+.lado-a-lado .botaoGeneralizado {
+    background: none;
+    border: none;
+}
+
+.lado-a-lado .titleInformation {
+    color: #ED7839;
+}
+
+.lado-a-lado .caixa-conteudo {
+    box-sizing: border-box;
+    width: 350px;
+    height: 450px;
+
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+}
+
+.lado-a-lado .caixa-conteudo .rectangle267 {
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    border-radius: 3px 3px 0px 0px;
+    padding-left: 15px;
+
+    height: 45px;
+    left: 0px;
+    top: 542px;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 3px;
+    height: 200px;
+    left: 1049px;
+    top: 128px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.scroll {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    overflow: auto;
+
+    position: absolute;
+    width: 450px;
+    height: 400px;
+    padding: 15px 2%;
+
+    color: #5C5C5C;
+}
+
+#textoDetalhes {
+    width: 50%;
+
+}
+
+#citacoes {
+    font-size: 80%;
+    padding: 0;
+    margin-top: 0;
+}
+
+.resumo {
+    box-sizing: border-box;
+    border: 1px solid #ECECEC;
+    border-radius: 3px;
+
+    display: block;
+
+    width: 1058px;
+    height: 189px;
+    left: 0px;
+    top: 542px;
+}
+
+.textoResumo {
+    padding: 15px;
+}
